@@ -9,7 +9,15 @@
 import UIKit
 
 class DetailScreenController: UIViewController {
-
+    
+    @IBOutlet weak var detailScreenView: DetailScreenView!
+    
+    // inner service
+    static func storyboardInstance() -> DetailScreenController? {
+        let storyboard = UIStoryboard(name: "DetailScreen", bundle: nil)
+        return storyboard.instantiateInitialViewController() as? DetailScreenController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

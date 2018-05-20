@@ -15,6 +15,11 @@
 		AC263C9020B1ACB300E0BCA1 /* DetailScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8F20B1ACB300E0BCA1 /* DetailScreenController.swift */; };
 		AC263C9320B1ACDD00E0BCA1 /* DetailScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC263C9220B1ACDD00E0BCA1 /* DetailScreenView.xib */; };
 		AC263C9520B1ACEC00E0BCA1 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C9420B1ACEC00E0BCA1 /* DetailScreenView.swift */; };
+		AC37937220B1F4D900C12DC9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37936F20B1F4D800C12DC9 /* StringExtension.swift */; };
+		AC37937320B1F4D900C12DC9 /* TintImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37937020B1F4D900C12DC9 /* TintImage.swift */; };
+		AC37937420B1F4D900C12DC9 /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37937120B1F4D900C12DC9 /* AppStoryboards.swift */; };
+		AC37937720B1F4E900C12DC9 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37937520B1F4E800C12DC9 /* Delay.swift */; };
+		AC37937820B1F4E900C12DC9 /* ConsoleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37937620B1F4E800C12DC9 /* ConsoleLog.swift */; };
 		ACEB479F20B074540002B1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB479E20B074540002B1A7 /* AppDelegate.swift */; };
 		ACEB47A720B074540002B1A7 /* FastfoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47A520B074540002B1A7 /* FastfoodApp.xcdatamodeld */; };
 		ACEB47A920B074570002B1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47A820B074570002B1A7 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 		AC263C8F20B1ACB300E0BCA1 /* DetailScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenController.swift; sourceTree = "<group>"; };
 		AC263C9220B1ACDD00E0BCA1 /* DetailScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailScreenView.xib; sourceTree = "<group>"; };
 		AC263C9420B1ACEC00E0BCA1 /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		AC37936F20B1F4D800C12DC9 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		AC37937020B1F4D900C12DC9 /* TintImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintImage.swift; sourceTree = "<group>"; };
+		AC37937120B1F4D900C12DC9 /* AppStoryboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
+		AC37937520B1F4E800C12DC9 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		AC37937620B1F4E800C12DC9 /* ConsoleLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLog.swift; sourceTree = "<group>"; };
 		ACEB479B20B074540002B1A7 /* FastfoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastfoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEB479E20B074540002B1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACEB47A620B074540002B1A7 /* FastfoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastfoodApp.xcdatamodel; sourceTree = "<group>"; };
@@ -64,6 +74,11 @@
 		AC263C8120B15FCC00E0BCA1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				AC37937620B1F4E800C12DC9 /* ConsoleLog.swift */,
+				AC37937520B1F4E800C12DC9 /* Delay.swift */,
+				AC37937120B1F4D900C12DC9 /* AppStoryboards.swift */,
+				AC37936F20B1F4D800C12DC9 /* StringExtension.swift */,
+				AC37937020B1F4D900C12DC9 /* TintImage.swift */,
 				AC263C8220B15FF600E0BCA1 /* UIViewExtension.swift */,
 			);
 			path = Utils;
@@ -258,14 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC37937820B1F4E900C12DC9 /* ConsoleLog.swift in Sources */,
+				AC37937320B1F4D900C12DC9 /* TintImage.swift in Sources */,
 				AC263C9520B1ACEC00E0BCA1 /* DetailScreenView.swift in Sources */,
 				ACEB47A720B074540002B1A7 /* FastfoodApp.xcdatamodeld in Sources */,
 				ACEB479F20B074540002B1A7 /* AppDelegate.swift in Sources */,
 				ACEB47C120B0C4CF0002B1A7 /* MainTableCell.swift in Sources */,
 				AC263C8320B15FF600E0BCA1 /* UIViewExtension.swift in Sources */,
+				AC37937420B1F4D900C12DC9 /* AppStoryboards.swift in Sources */,
 				AC263C9020B1ACB300E0BCA1 /* DetailScreenController.swift in Sources */,
 				AC263C8920B1693400E0BCA1 /* Food.swift in Sources */,
+				AC37937720B1F4E900C12DC9 /* Delay.swift in Sources */,
 				ACEB47B920B081770002B1A7 /* MainScreenView.swift in Sources */,
+				AC37937220B1F4D900C12DC9 /* StringExtension.swift in Sources */,
 				AC263C8620B1665A00E0BCA1 /* DataSource.swift in Sources */,
 				ACEB47BD20B082660002B1A7 /* MainScreenController.swift in Sources */,
 				AC263C8B20B16BEB00E0BCA1 /* Image.swift in Sources */,
