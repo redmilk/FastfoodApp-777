@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC263C8320B15FF600E0BCA1 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8220B15FF600E0BCA1 /* UIViewExtension.swift */; };
+		AC263C8620B1665A00E0BCA1 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8520B1665A00E0BCA1 /* DataSource.swift */; };
+		AC263C8920B1693400E0BCA1 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8820B1693400E0BCA1 /* Food.swift */; };
+		AC263C8B20B16BEB00E0BCA1 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8A20B16BEB00E0BCA1 /* Image.swift */; };
+		AC263C8E20B1AC9100E0BCA1 /* DetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC263C8D20B1AC9100E0BCA1 /* DetailScreen.storyboard */; };
+		AC263C9020B1ACB300E0BCA1 /* DetailScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C8F20B1ACB300E0BCA1 /* DetailScreenController.swift */; };
+		AC263C9320B1ACDD00E0BCA1 /* DetailScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC263C9220B1ACDD00E0BCA1 /* DetailScreenView.xib */; };
+		AC263C9520B1ACEC00E0BCA1 /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC263C9420B1ACEC00E0BCA1 /* DetailScreenView.swift */; };
 		ACEB479F20B074540002B1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB479E20B074540002B1A7 /* AppDelegate.swift */; };
-		ACEB47A120B074540002B1A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47A020B074540002B1A7 /* ViewController.swift */; };
-		ACEB47A420B074540002B1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47A220B074540002B1A7 /* Main.storyboard */; };
 		ACEB47A720B074540002B1A7 /* FastfoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47A520B074540002B1A7 /* FastfoodApp.xcdatamodeld */; };
 		ACEB47A920B074570002B1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47A820B074570002B1A7 /* Assets.xcassets */; };
 		ACEB47AC20B074570002B1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47AA20B074570002B1A7 /* LaunchScreen.storyboard */; };
+		ACEB47B520B080FA0002B1A7 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47B420B080FA0002B1A7 /* MainScreen.storyboard */; };
+		ACEB47B720B081620002B1A7 /* MainScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47B620B081620002B1A7 /* MainScreenView.xib */; };
+		ACEB47B920B081770002B1A7 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47B820B081770002B1A7 /* MainScreenView.swift */; };
+		ACEB47BD20B082660002B1A7 /* MainScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47BC20B082660002B1A7 /* MainScreenController.swift */; };
+		ACEB47C120B0C4CF0002B1A7 /* MainTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB47BF20B0C4CF0002B1A7 /* MainTableCell.swift */; };
+		ACEB47C220B0C4CF0002B1A7 /* MainTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEB47C020B0C4CF0002B1A7 /* MainTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC263C8220B15FF600E0BCA1 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		AC263C8520B1665A00E0BCA1 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		AC263C8820B1693400E0BCA1 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AC263C8A20B16BEB00E0BCA1 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AC263C8D20B1AC9100E0BCA1 /* DetailScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailScreen.storyboard; sourceTree = "<group>"; };
+		AC263C8F20B1ACB300E0BCA1 /* DetailScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenController.swift; sourceTree = "<group>"; };
+		AC263C9220B1ACDD00E0BCA1 /* DetailScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailScreenView.xib; sourceTree = "<group>"; };
+		AC263C9420B1ACEC00E0BCA1 /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
 		ACEB479B20B074540002B1A7 /* FastfoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastfoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEB479E20B074540002B1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACEB47A020B074540002B1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACEB47A320B074540002B1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACEB47A620B074540002B1A7 /* FastfoodApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastfoodApp.xcdatamodel; sourceTree = "<group>"; };
 		ACEB47A820B074570002B1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACEB47AB20B074570002B1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACEB47AD20B074570002B1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEB47B420B080FA0002B1A7 /* MainScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
+		ACEB47B620B081620002B1A7 /* MainScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainScreenView.xib; sourceTree = "<group>"; };
+		ACEB47B820B081770002B1A7 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		ACEB47BC20B082660002B1A7 /* MainScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenController.swift; sourceTree = "<group>"; };
+		ACEB47BF20B0C4CF0002B1A7 /* MainTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableCell.swift; sourceTree = "<group>"; };
+		ACEB47C020B0C4CF0002B1A7 /* MainTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC263C8120B15FCC00E0BCA1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC263C8220B15FF600E0BCA1 /* UIViewExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AC263C8420B1650F00E0BCA1 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB47A520B074540002B1A7 /* FastfoodApp.xcdatamodeld */,
+				AC263C8520B1665A00E0BCA1 /* DataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		AC263C8720B1692100E0BCA1 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC263C8820B1693400E0BCA1 /* Food.swift */,
+				AC263C8A20B16BEB00E0BCA1 /* Image.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		AC263C8C20B1AB8600E0BCA1 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AC263C9120B1ACC100E0BCA1 /* DetailScreenView */,
+				AC263C8D20B1AC9100E0BCA1 /* DetailScreen.storyboard */,
+				AC263C8F20B1ACB300E0BCA1 /* DetailScreenController.swift */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		AC263C9120B1ACC100E0BCA1 /* DetailScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				AC263C9220B1ACDD00E0BCA1 /* DetailScreenView.xib */,
+				AC263C9420B1ACEC00E0BCA1 /* DetailScreenView.swift */,
+			);
+			path = DetailScreenView;
+			sourceTree = "<group>";
+		};
 		ACEB479220B074540002B1A7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +125,62 @@
 		ACEB479D20B074540002B1A7 /* FastfoodApp */ = {
 			isa = PBXGroup;
 			children = (
-				ACEB479E20B074540002B1A7 /* AppDelegate.swift */,
-				ACEB47A020B074540002B1A7 /* ViewController.swift */,
-				ACEB47A220B074540002B1A7 /* Main.storyboard */,
-				ACEB47A820B074570002B1A7 /* Assets.xcassets */,
-				ACEB47AA20B074570002B1A7 /* LaunchScreen.storyboard */,
-				ACEB47AD20B074570002B1A7 /* Info.plist */,
-				ACEB47A520B074540002B1A7 /* FastfoodApp.xcdatamodeld */,
+				AC263C8720B1692100E0BCA1 /* DataModels */,
+				AC263C8420B1650F00E0BCA1 /* DataSource */,
+				AC263C8120B15FCC00E0BCA1 /* Utils */,
+				ACEB47BB20B082240002B1A7 /* Screens */,
+				ACEB47B320B074950002B1A7 /* Application */,
 			);
 			path = FastfoodApp;
+			sourceTree = "<group>";
+		};
+		ACEB47B320B074950002B1A7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB479E20B074540002B1A7 /* AppDelegate.swift */,
+				ACEB47AA20B074570002B1A7 /* LaunchScreen.storyboard */,
+				ACEB47A820B074570002B1A7 /* Assets.xcassets */,
+				ACEB47AD20B074570002B1A7 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ACEB47BA20B082180002B1A7 /* MainScreenView */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB47B620B081620002B1A7 /* MainScreenView.xib */,
+				ACEB47B820B081770002B1A7 /* MainScreenView.swift */,
+				ACEB47C320B0C4D80002B1A7 /* MainTableCell */,
+			);
+			path = MainScreenView;
+			sourceTree = "<group>";
+		};
+		ACEB47BB20B082240002B1A7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AC263C8C20B1AB8600E0BCA1 /* DetailScreen */,
+				ACEB47BE20B0C3F30002B1A7 /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ACEB47BE20B0C3F30002B1A7 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB47B420B080FA0002B1A7 /* MainScreen.storyboard */,
+				ACEB47BC20B082660002B1A7 /* MainScreenController.swift */,
+				ACEB47BA20B082180002B1A7 /* MainScreenView */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		ACEB47C320B0C4D80002B1A7 /* MainTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				ACEB47BF20B0C4CF0002B1A7 /* MainTableCell.swift */,
+				ACEB47C020B0C4CF0002B1A7 /* MainTableCell.xib */,
+			);
+			path = MainTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACEB47AC20B074570002B1A7 /* LaunchScreen.storyboard in Resources */,
+				AC263C8E20B1AC9100E0BCA1 /* DetailScreen.storyboard in Resources */,
+				ACEB47C220B0C4CF0002B1A7 /* MainTableCell.xib in Resources */,
+				ACEB47B520B080FA0002B1A7 /* MainScreen.storyboard in Resources */,
 				ACEB47A920B074570002B1A7 /* Assets.xcassets in Resources */,
-				ACEB47A420B074540002B1A7 /* Main.storyboard in Resources */,
+				ACEB47B720B081620002B1A7 /* MainScreenView.xib in Resources */,
+				AC263C9320B1ACDD00E0BCA1 /* DetailScreenView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +258,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACEB47A120B074540002B1A7 /* ViewController.swift in Sources */,
+				AC263C9520B1ACEC00E0BCA1 /* DetailScreenView.swift in Sources */,
 				ACEB47A720B074540002B1A7 /* FastfoodApp.xcdatamodeld in Sources */,
 				ACEB479F20B074540002B1A7 /* AppDelegate.swift in Sources */,
+				ACEB47C120B0C4CF0002B1A7 /* MainTableCell.swift in Sources */,
+				AC263C8320B15FF600E0BCA1 /* UIViewExtension.swift in Sources */,
+				AC263C9020B1ACB300E0BCA1 /* DetailScreenController.swift in Sources */,
+				AC263C8920B1693400E0BCA1 /* Food.swift in Sources */,
+				ACEB47B920B081770002B1A7 /* MainScreenView.swift in Sources */,
+				AC263C8620B1665A00E0BCA1 /* DataSource.swift in Sources */,
+				ACEB47BD20B082660002B1A7 /* MainScreenController.swift in Sources */,
+				AC263C8B20B16BEB00E0BCA1 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACEB47A220B074540002B1A7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACEB47A320B074540002B1A7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACEB47AA20B074570002B1A7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +406,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P72TYW9D4;
-				INFOPLIST_FILE = FastfoodApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FastfoodApp/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +425,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5P72TYW9D4;
-				INFOPLIST_FILE = FastfoodApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FastfoodApp/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
