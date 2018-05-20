@@ -18,6 +18,7 @@ class MainTableCell: UITableViewCell {
     @IBOutlet weak var bottomContainer: UIView!
     @IBOutlet weak var purchaseButton: UIButton!
     @IBOutlet weak var priceLbl: UILabel!
+    @IBOutlet weak var newLbl: UILabel!
     
     static var identifier: String = "MainTableCell"
     
@@ -32,9 +33,12 @@ class MainTableCell: UITableViewCell {
         purchaseButton.addCornerRadius()
         purchaseButton.addBorder(width: 1.0, color: .orange)
         purchaseButton.addShadow()
+        newLbl.clipsToBounds = true
+        newLbl.addCornerRadius(radius: 14.0) // newLbl height/2
     }
     
     @IBAction func purchasePressed(_ sender: Any) {
+        
     }
     
     

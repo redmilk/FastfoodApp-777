@@ -17,7 +17,19 @@
                     <view key="view" contentMode="scaleToFill" id="lxE-XO-BDz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zR1-Wn-fzj" customClass="DetailScreenView" customModule="FastfoodApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zR1-Wn-fzj" firstAttribute="leading" secondItem="m0z-gB-z0C" secondAttribute="leading" id="KXQ-Ap-Erv"/>
+                            <constraint firstItem="zR1-Wn-fzj" firstAttribute="top" secondItem="m0z-gB-z0C" secondAttribute="top" id="YIQ-WT-m6b"/>
+                            <constraint firstItem="m0z-gB-z0C" firstAttribute="trailing" secondItem="zR1-Wn-fzj" secondAttribute="trailing" id="csL-RX-f7o"/>
+                            <constraint firstItem="m0z-gB-z0C" firstAttribute="bottom" secondItem="zR1-Wn-fzj" secondAttribute="bottom" id="mcq-o1-gWH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="m0z-gB-z0C"/>
                     </view>
                 </viewController>
