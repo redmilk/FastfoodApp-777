@@ -8,6 +8,19 @@
 
 import UIKit
 
+extension DetailScreenController : DetailScreenViewDelegate {
+    
+    func detailScreenViewBackButtonPressed() {
+        navigationController?.popViewController(animated: true)
+    }
+    
+    func detailScreenViewCartButtonPressed() {
+        //instantiate cart
+    }
+    
+    
+}
+
 class DetailScreenController: UIViewController {
     
     @IBOutlet weak var detailScreenView: DetailScreenView!
@@ -21,6 +34,7 @@ class DetailScreenController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        detailScreenView.delegate = self
         // Do any additional setup after loading the view.
     }
 

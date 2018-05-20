@@ -22,6 +22,7 @@ protocol MainScreenViewDelegate : class {
 class MainScreenView: UIView {
     
     weak var delegate: MainScreenViewDelegate?
+    
     var dataSource = AppDelegate.instance().dataSource
 
     @IBOutlet var mainContainer: UIView!
